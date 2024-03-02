@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render the user component render the header text as users 1`] = `
+<div>
+  <div
+    class="App"
+  >
+    <h1>
+      Users 
+    </h1>
+    <input
+      placeholder="search user"
+      type="text"
+      value=""
+    />
+    <div
+      class="flex"
+    />
+  </div>
+</div>
+`;
+
+exports[`render the user component search bar input has value 1`] = `
+<div>
+  <div
+    class="App"
+  >
+    <h1>
+      Users 
+    </h1>
+    <input
+      placeholder="search user"
+      type="text"
+      value="tests"
+    />
+    <div
+      class="flex"
+    />
+  </div>
+</div>
+`;
+
+exports[`render the user component search bar input is empty 1`] = `
+<div>
+  <div
+    class="App"
+  >
+    <h1>
+      Users 
+    </h1>
+    <input
+      placeholder="search user"
+      type="text"
+      value=""
+    />
+    <div
+      class="flex"
+    />
+  </div>
+</div>
+`;
